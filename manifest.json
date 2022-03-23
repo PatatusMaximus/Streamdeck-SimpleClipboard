@@ -1,0 +1,39 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/clipboard",
+      "Name": "Set/clear clipboard value",
+      "States": [
+        {
+          "Image": "images/clipboard",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Clear or set a value to the clipboard",
+      "UUID": "com.patatusmaximus.simplecliboard.set.DefaultPluginAction"
+    }
+  ],
+	"Category": "System tools",
+	"CategoryIcon": "images/category/categoryIcon",
+	"Disabled":  false,
+	"Author": "Patatus Maximus",
+	"CodePathWin": "SimpleClipboard.exe",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Simply clear or set a value in the clipboard.",
+  "Name": "SimpleClipboard",
+  "Icon": "images/clipboard",
+  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "Version": "1.0",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion":  "4.1"
+	},
+	"OS": [
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ]
+}
