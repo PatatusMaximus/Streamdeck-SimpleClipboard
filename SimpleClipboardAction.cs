@@ -5,7 +5,7 @@ using SimpleClipboard.models;
 
 namespace SimpleClipboard
 {
-  [ActionUuid(Uuid="com.patatusmaximus.simplecliboard.set.DefaultPluginAction")]
+  [ActionUuid(Uuid="com.patatusmaximus.simpleclipboard.setvalue")]
   public class SimpleClipboardAction : BaseStreamDeckActionWithSettingsModel<ClipboardSettingsModel>
   {
 	  

@@ -12,7 +12,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Clear or set a value to the clipboard",
-      "UUID": "com.patatusmaximus.simplecliboard.set.DefaultPluginAction"
+      "UUID": "com.patatusmaximus.simpleclipboard.setvalue"
     }
   ],
 	"Category": "System tools",
@@ -24,7 +24,7 @@
   "Description": "Simply clear or set a value in the clipboard.",
   "Name": "SimpleClipboard",
   "Icon": "images/clipboard",
-  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "URL": "https://github.com/PatatusMaximus/Streamdeck-SimpleClipboard",
   "Version": "1.0",
 	"SDKVersion": 2,
 	"Software": {

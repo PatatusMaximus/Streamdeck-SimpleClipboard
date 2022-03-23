@@ -38,7 +38,7 @@ $json = ConvertFrom-JSON $manifestcontent
 
 $uuidAction = $json.Actions[0].UUID
 
-$pluginID = $uuidAction.substring(0, $uuidAction.Length - ".action".Length)
+$pluginID = $uuidAction
 $destDir = "$($env:APPDATA)\Elgato\StreamDeck\Plugins\$pluginID.sdPlugin"
 
 $pluginName = Split-Path $basePath -leaf
