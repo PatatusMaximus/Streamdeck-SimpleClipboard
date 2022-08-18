@@ -1,4 +1,4 @@
-﻿**Simple clipboard plugin for elgato stream.**
+﻿**Simple clipboard plugin for elgato streamdeck.**
 
 This plugin simply set a value or clear the clipboard.
 Choose a value and click the button to set the value in your clipboard.
